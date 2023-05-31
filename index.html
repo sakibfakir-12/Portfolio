@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakib Fakir</title>
+    <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/8f03610eca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgs/namelog.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior ASP.NET developer. <b><span>(As a Fresher)</span></b></p>
+                <h1>Hi, I'm <span>Sakib</span><br> Fakir From Mumbai </h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------About------------ -->
+    <div id="about">
+        <div class="container"> 
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p class="para">I am a motivated and enthusiastic junior web developer with a solid foundation in ASP.NET and Bootstrap, as well as a strong command of HTML and CSS. I am eager to apply my skills and learn from real-world projects, aspiring to create user-friendly web applications with modern designs, functional features, and intuitive user interfaces.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('my services')">My Services</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="my services"> 
+                        <ul>   
+                            <li><span>Web Applications</span> <i class="fa-regular fa-snowflake"></i><br>Building web applications using ASP.NET web framework </li>
+                            <li><span>UI Design</span> <i class="fa-solid fa-display"></i> <br> Using HTML, CSS, or Bootstrap.</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher </span><br> Final year project successfully completed during academic year 2021-22.</li>
+                            <li><span>Project Entitled "JAGRUTI BLOOD BANK" </span><br>About Project-<br>Dynamic Web Application using ASP.NET with C# programming 
+                                <br> Bootstrap Styling for Front-End Designing and
+                                <br> MYSQL Server for Database .
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education" >
+                        <ul>    
+                            <li><span>BSC-IT</span> <br> Appearing (S.M.Shetty College of Science, Commerce and Management Studies, Mumbai University)  <a href="https://www.smshettycollege.edu.in/"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                            <li><span>HSC</span> <br> 50.46% (S.M.Shetty College of Science, Commerce and Management Studies)  <a href="https://www.smshettycollege.edu.in/"><i class="fa-solid fa-building-columns"></i></a></li>
+                            <li><span>SSC</span><br> 74.60% (Shivam Vidya Mandir high school & jr. college )  <a href="https://www.shivamvidyamandir.com/"><i class="fa-solid fa-school"></i></a>  </li>
+                        </ul>
+                    </div>
+                
+            
+        </div>
+    </div>
+    <!-- ............................Service......................................... -->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Skills<br><span>(Beginner-Intermediate-Advanced)</span> </h1><br>
+        <table>
+            <thead>
+              <tr>
+                <th>Language</th>
+                <th>Rating</th>
+              </tr>
+            </thead>
+            <tbody><!--Beginner-Intermediate-Advanced -->
+              <tr>
+                <td>.NET</td>
+                <td>Beginner</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+              </tr>
+              <tr>
+                <td>ASP.NET</td>
+                <td>Beginner</td>
+              </tr>
+              <tr>
+                <td>jQuery</td>
+                <td>Beginner</td>
+              </tr>
+              <tr>
+                <td>MS SQL Server</td>
+                <td>Intermediate</td>
+              </tr>
+              <tr>
+                <td>SQL</td>
+                <td>Beginner</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+                <td>Intermediate</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+              </tr>
+              <tr>
+                <td>C#.NET</td>
+                <td>Beginner</td>
+              </tr>
+              <tr>
+                <td>Microsoft Visual Studio</td>
+                <td>Intermediate</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+<!----------------------------Portfolio----------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/brand.png" >
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>Completed responsive-web-design online certification course from freecodecamp.</p>
+                    <a href="https://www.freecodecamp.org/certification/sakibfakeer/responsive-web-design"><i class="fa-brands fa-free-code-camp"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/portfoliooo.png" >
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>I constructed my portfolio utilizing the programming languages of HTML, CSS, and JavaScript.</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+<!--------------Contact Me----------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>fakirsakib2002@gmail.com</p>
+                <div class="social-icons">
+                     <a href="https://www.linkedin.com/in/fakir-sakib-b1815b216/"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://github.com/sakibfakir-12"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="imgs/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Full Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------------footer--------------------------- -->
+    <div class="copyright">
+        <p>Copyright &copy Sakib Fakir. <i class="fa-solid fa-skull"></i></p>
+    </div>
+</div>
+
+<!-- ----------------------------back to top-------------------------- -->
+<a href="#" class="back-to-top">
+    <span class="material-symbols-outlined">
+        arrow_circle_up
+        </span>
+</a>
+<!-- ------------------------------------Script------------------------- -->
+<script>
+    var sidemenu =document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbziET1ShORPaAUjSSBz2SFDIPorrXS9CeL2LjllHnvjA5e2IXLK2vptajGlHNv87Zw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
